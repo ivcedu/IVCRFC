@@ -42,7 +42,7 @@ $(document).ready(function() {
             sessionData_login(m_name, m_email);
             if (isUserAdmin()) {
                 // open approver
-//                window.open('adminImportCourses.html', '_self');
+                window.open('mgrHome.html', '_self');
                 return false;
             }
             else {
